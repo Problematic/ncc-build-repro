@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    {"src": "first/index.ts", "use": "@now/node"},
+    {"src": "second/index.ts", "use": "@now/node"}
+  ]
+}

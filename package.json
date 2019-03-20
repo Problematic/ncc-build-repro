@@ -1,0 +1,15 @@
+{
+  "name": "ncc-build-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:first": "ncc build first/index.ts",
+    "build:second": "ncc build second/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@zeit/ncc": "^0.16.1"
+  }
+}
